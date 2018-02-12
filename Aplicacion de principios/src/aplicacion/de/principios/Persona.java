@@ -7,15 +7,8 @@ package aplicacion.de.principios;
 
 /**
  *
- * @author Carlos
+ * @author Juancho
  */
-public class AplicacionDePrincipios {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Persona extends Cliente{
     
 }
