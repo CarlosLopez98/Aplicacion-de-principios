@@ -20,8 +20,8 @@ public class TipoHelados {
     ArrayList<String> tipos = new ArrayList<>();
     Lector L = new Lector();
     public void DeclararTipos(){
-        tipos.add("paleta de agua");
-        tipos.add("helado de yogurt");
+        tipos.add("paleta de agua $1000");
+        tipos.add("helado de yogurt $2000 + 1000 por cada bola extra");
     }
    
     public int listartipos(){

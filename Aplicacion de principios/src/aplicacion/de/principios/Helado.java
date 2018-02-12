@@ -10,7 +10,8 @@ package aplicacion.de.principios;
  * @author Juancho
  */
 public class Helado {
-    protected String Nombre;
+    protected  String Nombre;
     protected float precio;
+   
     
 }

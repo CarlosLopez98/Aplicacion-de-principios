@@ -13,8 +13,7 @@ public class Consola {
     InfoCliente IC = new InfoCliente();
     Persona p = new Persona();
     TipoHelados th = new TipoHelados();
-    TipoSaborA tsa = new TipoSaborA();
-    TiposSaborY tsy = new TiposSaborY();
+    
     Consola(){
         inicio();
     }
@@ -26,12 +25,15 @@ public class Consola {
         
         switch(th.listartipos()){
             case 0:
-                System.out.println("¿que sabor desea?");
-                tsa.listartipos();
+                PaletaAgua pa = new PaletaAgua();
+                pa.preparar();
+
             break;
             case 1:
-                System.out.println("¿que sabor desea?");
-                tsy.listartipos();
+                Yogurt y = new Yogurt();
+                y.definirhelado();
+                y.preparar();
+            break;
         }
     }
 }

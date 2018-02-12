@@ -38,4 +38,8 @@ public class TipoSaborA {
             }
        return L.leerint("digite el numero correspondiente a la desicion");
     }
+    
+    public String devolversabor(int n){
+        return tipos.get(n);
+    }
 }
