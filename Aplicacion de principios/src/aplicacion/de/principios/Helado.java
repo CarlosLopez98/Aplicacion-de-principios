@@ -9,9 +9,9 @@ package aplicacion.de.principios;
  *
  * @author Juancho
  */
-public class Helado {
+public abstract class Helado {
     protected  String Nombre;
     protected float precio;
    
-    
+    public abstract void preparar();
 }

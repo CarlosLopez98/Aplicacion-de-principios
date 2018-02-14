@@ -19,12 +19,27 @@ public class PaletaAgua extends Helado{
         Nombre=("paleta de agua sabor: "+sabor);
     }
     
+    @Override
     public void preparar(){
-        System.err.println("preparando paleta de agua sabor: "+sabor );
-        System.err.println("licuando agua con saborizante : "+sabor);
-        System.err.println("colocando en molde");
-        System.err.println("congelando");
-        System.err.println("sirviendo paleta de agua sabor : "+sabor);
+        for(int i = 0; i<=500000000; i++){
+            switch(i){
+                case 100000000:
+                    System.err.println("preparando paleta de agua sabor: "+sabor );
+                    break;
+                case 200000000:
+                    System.err.println("licuando agua con saborizante : "+sabor);
+                    break;
+                case 300000000:
+                    System.err.println("colocando molde");
+                    break;
+                case 400000000:
+                    System.err.println("congelando");
+                    break;
+                case 500000000:
+                    System.err.println("sirviendo paleta de agua sabor :"+sabor);
+                    break;
+            }
+        }
     }
        
 }
