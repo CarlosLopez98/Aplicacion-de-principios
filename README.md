@@ -14,3 +14,9 @@ Como se utilizó principio del egoísmo
 
 Las clases no interfieren en el comportamiento de otras, solo en su función propia y en los métodos que las invocan, por ejemplo:
 La clase consola solo se comunica con las clases PaletaAgua y Yogurt, pero no se comunica con las clases SaborA y SaborY, al cliente no le interesa controlar los tipos de sabores que hay sino listarlos.
+
+
+Integrantes
+Carlos E. Lopez 20162021295
+Juan D. Arias Ortegon 20161020522
+J. Esteban Pacavita 20162020467
